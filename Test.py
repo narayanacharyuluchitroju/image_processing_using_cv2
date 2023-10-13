@@ -3,7 +3,7 @@ import numpy as np
 
 try:
     # Load the image
-    image = cv2.imread("vh_detection.jpeg")
+    image = cv2.imread("Lines.jpeg")
 
     # Ensure the image is in grayscale
     gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

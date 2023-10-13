@@ -8,7 +8,7 @@ try:
     output_grayscale_image = cv2.cvtColor(input_image, cv2.COLOR_BGR2GRAY)
 
     # save the image
-    cv2.imwrite('grayscale.png', output_grayscale_image)
+    cv2.imwrite('Task1_grayscale_image.png', output_grayscale_image)
 
     # display the original and grayscale converted images
     cv2.imshow('Original Image', input_image)
