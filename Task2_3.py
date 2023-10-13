@@ -27,8 +27,11 @@ try:
         borderType=cv2.BORDER_CONSTANT)
 
     # Save the right_shifted_image
-    cv2.imwrite('right_shifted_image.png', right_shifted_image)
-    cv2.imshow('right_shifted_image.png', right_shifted_image)
+    cv2.imwrite('Task2_3_right_shifted_image.png', right_shifted_image)
+
+    # Display the input and putput images
+    cv2.imshow('Original Image', input_image)
+    cv2.imshow('right_shifted_image', right_shifted_image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
